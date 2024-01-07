@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;300;400&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            list-style: none;
+            margin: 0;
+            font-family: 'Poppins', sans-serif !important;
+        }
+
+        .container {
+            margin: 0 auto;
+            max-width: 1296px;
+        }
+
+        .full-width {
+            background-color: #0c1434;
+            height: 900px;
+
+        }
+
+        nav {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        nav ul li {
+            display: flex;
+            gap: 30px;
+
+        }
+
+        nav ul li a {
+            margin-top: 25px;
+            text-decoration: none;
+            color: #fff;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+
+        }
+
+        nav form i {
+            color: #fff;
+            margin-top: 25px;
+        }
+
+        .description {
+            margin-top: 5%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+
+        .description h1 {
+            font-weight: 400;
+            color: #fff;
+            font-family: 'Roboto', sans-serif;
+            font-size: 20px;
+        }
+
+        .description h2 {
+            font-weight: 400;
+            margin-top: 10px;
+            color: #fff;
+            font-family: 'Roboto', sans-serif;
+            font-size: 16px;
+        }
+
+        table {
+            position: relative;
+            top: 50px;
+            max-width: 1296px;
+            margin: 0 auto;
+            color: #fff;
+            width: 100%;
+
+        }
+
+        td {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 500;
+            text-align: center;
+        }
+
+        .logo {
+            width: 30px;
+        }
+
+        .coin {
+            text-decoration: none;
+            color: #fff;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 10px;
+
+        }
+
+        .bitcoin {
+            color: green;
+            font-weight: 600;
+        }
+
+        .Ethereum {
+            color: red;
+            font-weight: 600;
+        }
+
+        .coin-name {
+            text-align: left;
+        }
+
+        form i {
+            margin-right: 100px;
+        }
+
+        .sec2 {
+            background-color: #00092A;
+        }
+
+
+        .img1 {
+            max-width: 700px;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .text-section {
+            font-family: 'Poppins', sans-serif !important;
+            margin-top: 30px;
+            max-width: 458px;
+            color: #fff;
+        }
+
+        .para {
+            font-family: 'Poppins', sans-serif !important;
+
+            margin-top: 30px;
+            font-weight: 400;
+            font-size: 16px;
+        }
+
+        .logo-des {
+            margin-top: 30px;
+            display: flex;
+        }
+
+        .logo-description {
+            margin-top: 20px;
+            margin-left: 10px;
+        }
+
+        .footer {
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+
+
+        }
+
+        .foot1 {
+            max-width: 400px;
+        }
+
+        .btn {
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        .viewall{
+            border-radius: 8px;
+            color: #fff;
+            padding:15px 40px;
+            background-image: linear-gradient(to right, #3DD8EE 0%, #3DD8EE 51%, #0997E8 100%);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="full-width">
+        <div class="container">
+            <nav>
+
+                <img src="asset/Screenshot 2024-01-07 113147.png" alt="">
+                <ul>
+                    <li>
+                        <a href="">Cryptocurrencies</a>
+                        <a href="">Exhanges</a>
+                        <a href="">Communities</a>
+                        <a href="">Trades</a>
+
+
+                    </li>
+                </ul>
+                <form action=""><i class="fa-solid fa-magnifying-glass"></i></form>
+            </nav>
+
+            <section class="section-1">
+                <div class="container">
+                    <div class="description">
+                        <h1>Today's Cryptocurrency Prices By Martket Cap</h1>
+                        <h2>The global Cryptocurrency market cap today is <span style="color: green;font-weight:800;font-family: 'Roboto', sans-serif;
+                        ">$811.7B</span>,a <span style="color:red"><i
+                                    class="fa-solid fa-arrow-down"></i>0.17%</span>decrease in the last 24 hours</h2>
+                    </div>
+                    <table>
+                        <tr>
+                            <th class="coin-name">Name</th>
+                            <th>Price</th>
+                            <th>24h change</th>
+                            <th>Chart</th>
+                            <th>Marketcap</th>
+                        </tr>
+                        <tr>
+                            <td><a class="coin" href=""><img class="logo"
+                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Bitcoin.svg/1024px-Bitcoin.svg.png"
+                                        alt="">Bitcoin <span
+                                        style="font-family: 'Roboto', sans-serif;font-size: 12px;">BTC</span></a></td>
+                            <td>$3625.24</td>
+                            <td class="bitcoin">+2.4%</td>
+                            <td><img src="asset/Screenshot 2024-01-07 124723.png" alt=""></td>
+                            <td>$320,893,271,955</td>
+                        </tr>
+                        <tr>
+                            <td><a class="coin" href=""><img class="logo" style="border-radius: 50%;"
+                                        src="https://w7.pngwing.com/pngs/268/1013/png-transparent-ethereum-eth-hd-logo-thumbnail.png"
+                                        alt="">Ethereum <span
+                                        style="font-family: 'Roboto', sans-serif;font-size: 12px;">ETH</span></a></td>
+                            <td>$1218.18</td>
+                            <td class="Ethereum">-0.7%</td>
+                            <td><img src="asset/Screenshot 2024-01-07 124733.png" alt=""></td>
+                            <td>$148,563,792,762</td>
+                        </tr>
+                        <tr>
+                            <td><a class="coin" href=""><img class="logo"
+                                        src="https://seeklogo.com/images/S/shiba-inu-shib-logo-9542F950B0-seeklogo.com.png"
+                                        alt="">Shibulnu <span
+                                        style="font-family: 'Roboto', sans-serif;font-size: 12px;">Shibu</span></a></td>
+                            <td>$0.0001</td>
+                            <td class="bitcoin">+1.2%</td>
+                            <td><img src="asset/Screenshot 2024-01-07 124723.png" alt=""></td>
+                            <td>$4,498,804,882</td>
+                        </tr>
+                        <tr>
+                            <td><a class="coin" href=""><img class="logo"
+                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Bitcoin.svg/1024px-Bitcoin.svg.png"
+                                        alt="">Bitcoin <span
+                                        style="font-family: 'Roboto', sans-serif;font-size: 12px;">BTC</span></a></td>
+                            <td>$3625.24</td>
+                            <td class="bitcoin">+2.4%</td>
+                            <td><img src="asset/Screenshot 2024-01-07 124723.png" alt=""></td>
+                            <td>$320,893,271,955</td>
+                        </tr>
+                        <tr>
+                            <td><a class="coin" href=""><img class="logo" style="border-radius: 50%;"
+                                        src="https://w7.pngwing.com/pngs/268/1013/png-transparent-ethereum-eth-hd-logo-thumbnail.png"
+                                        alt="">Ethereum <span
+                                        style="font-family: 'Roboto', sans-serif;font-size: 12px;">ETH</span></a></td>
+                            <td>$1218.18</td>
+                            <td class="Ethereum">-0.7%</td>
+                            <td><img src="asset/Screenshot 2024-01-07 124733.png" alt=""></td>
+                            <td>$148,563,792,762</td>
+                        </tr>
+                        <tr>
+                            <td><a class="coin" href=""><img class="logo"
+                                        src="https://seeklogo.com/images/S/shiba-inu-shib-logo-9542F950B0-seeklogo.com.png"
+                                        alt="">Shibulnu <span
+                                        style="font-family: 'Roboto', sans-serif;font-size: 12px;">Shibu</span></a></td>
+                            <td>$0.0001</td>
+                            <td class="bitcoin">+1.2%</td>
+                            <td><img src="asset/Screenshot 2024-01-07 124723.png" alt=""></td>
+                            <td>$4,498,804,882</td>
+                        </tr>
+                        <tr>
+                            <td><a class="coin" href=""><img class="logo"
+                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Bitcoin.svg/1024px-Bitcoin.svg.png"
+                                        alt="">Bitcoin <span
+                                        style="font-family: 'Roboto', sans-serif;font-size: 12px;">BTC</span></a></td>
+                            <td>$3625.24</td>
+                            <td class="bitcoin">+2.4%</td>
+                            <td><img src="asset/Screenshot 2024-01-07 124723.png" alt=""></td>
+                            <td>$320,893,271,955</td>
+                        </tr>
+                        <tr>
+                            <td><a class="coin" href=""><img class="logo" style="border-radius: 50%;"
+                                        src="https://w7.pngwing.com/pngs/268/1013/png-transparent-ethereum-eth-hd-logo-thumbnail.png"
+                                        alt="">Ethereum <span
+                                        style="font-family: 'Roboto', sans-serif;font-size: 12px;">ETH</span></a></td>
+                            <td>$1218.18</td>
+                            <td class="Ethereum">-0.7%</td>
+                            <td><img src="asset/Screenshot 2024-01-07 124733.png" alt=""></td>
+                            <td>$148,563,792,762</td>
+                        </tr>
+                        <tr>
+                            <td><a class="coin" href=""><img class="logo"
+                                        src="https://seeklogo.com/images/S/shiba-inu-shib-logo-9542F950B0-seeklogo.com.png"
+                                        alt="">Shibulnu <span
+                                        style="font-family: 'Roboto', sans-serif;font-size: 12px;">Shibu</span></a></td>
+                            <td>$0.0001</td>
+                            <td class="bitcoin">+1.2%</td>
+                            <td><img src="asset/Screenshot 2024-01-07 124723.png" alt=""></td>
+                            <td>$4,498,804,882</td>
+                        </tr>
+
+
+                    </table>
+                    <div class="btn">
+                        <button class="viewall">View all</button>
+                    </div>
+                </div>
+
+
+            </section>
+
+        </div>
+    </div>
+    <div class="sec2">
+        <div class="container">
+            <section class="section-2">
+                <div class="row">
+                    <div class="image-section">
+                        <img class="img1" src="asset/Screenshot 2024-01-07 133653.png" alt="">
+
+                    </div>
+                    <div class="text-section">
+                        <div class="heading">
+                            <h1>We are the most trusted
+                                Cryptocurrency Platform</h1>
+                        </div>
+                        <div class="para">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Nunc vulputate libero et velit interdum, ac aliquet odio
+                            mattis.
+                        </div>
+                        <div class="logo-des">
+                            <div class="logo-img">
+                                <img src="asset/Group 22.svg" alt="">
+
+                            </div>
+                            <div class="logo-description">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nunc vulputate</p>
+
+                            </div>
+
+                        </div>
+                        <div class="logo-des">
+                            <div class="logo-img">
+                                <img src="asset/Group 23.svg" alt="">
+
+                            </div>
+                            <div class="logo-description">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nunc vulputate</p>
+
+                            </div>
+
+                        </div>
+                        <div class="logo-des">
+                            <div class="logo-img">
+                                <img src="asset/Group 24.svg" alt="">
+
+                            </div>
+                            <div class="logo-description">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nunc vulputate</p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </section>
+        </div>
+    </div>
+    <div class="full-width">
+        <div class="container">
+            <div class="row">
+                <div>
+                    <img src="asset/Screenshot 2024-01-07 142631.png" alt="">
+
+                </div>
+                <div>
+                    <img src="asset/Screenshot 2024-01-07 142643.png" alt="">
+
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="container">
+                <div class="footer">
+                    <div class="foot1">
+                        <img src="asset/Group.svg" alt="">
+                        <p>CoinIntention's mission is to make investing in cryptocurrencies easy and efficient.
+                            CoinIntention tracks various data of cryptocurrencies and thus offers its users an overview
+                            of all cryptocurrencies available on the market and their performance, market
+                            capitalization, trading volume, etc.</p>
+                    </div>
+                    <div class="root2">
+                        <h1>compnay</h1>
+                        <ul>
+                            <li>About us</li>
+                            <li>Terms of use</li>
+                            <li>Privacy Policy</li>
+                            <li>Community Rules</li>
+                            <li>Disclaimer</li>
+                            <li>Methodology</li>
+                        </ul>
+                    </div>]
+                    <div class="foot3">
+                        <h1>Support</h1>
+                        <ul>
+                            <li>Requested Form</li>
+                            <li>Contacted form</li>
+                            <li>FAQS</li>
+                            <li>Glossary</li>
+                        </ul>
+                    </div>
+                    <div class="foot4">
+                        <h1>Socials</h1>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Instagram</li>
+                            <li>Twitter</li>
+                            <li>Youtube</li>
+                            <li>Telegram</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+
+</body>
+
+</html>
